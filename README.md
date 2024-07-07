@@ -19,8 +19,9 @@ Build a scalable Flask web application with user registration and login function
 
 ```
 /your_app_directory
-├── nginx
-│   └── nginx.conf
+├── conf.d
+│   └── app.conf
+├── docker-compose.yml
 └── app
     ├── templates
     │   ├── register.html
@@ -28,7 +29,6 @@ Build a scalable Flask web application with user registration and login function
     ├── app.py
     ├── requirements.txt
     ├── Dockerfile
-    ├── docker-compose.yml
     └── .env
 
 ```
